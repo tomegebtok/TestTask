@@ -7,7 +7,7 @@ public class FilterHandler implements Runnable {
     private final FilterInterface filter;
     private final LocalDateTime[] time;
 
-    public FilterHandler(final FilterInterface filter, final LocalDateTime ... time) {
+    public FilterHandler(final FilterInterface filter, final LocalDateTime... time) {
         this.filter = filter;
         this.time = time;
     }

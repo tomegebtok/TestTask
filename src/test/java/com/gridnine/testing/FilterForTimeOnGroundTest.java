@@ -17,5 +17,4 @@ public class FilterForTimeOnGroundTest {
         expected.remove(expected.size() - 1);
         assertEquals(expected, actual);
     }
-
 }

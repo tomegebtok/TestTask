@@ -18,5 +18,4 @@ public class FilterForDepartureBeforeArrivalTest {
         expected.remove(3);
         assertEquals(expected, actual);
     }
-
 }
