@@ -16,7 +16,7 @@ public class FilterHandler implements Runnable {
     public void run() {
         List<Flight> flights = FlightBuilder.createFlights();
         if (time.length == 0) {
-            System.out.println(filter.filter(filter.filter(flights)));
+            System.out.println(filter.filter(flights));
         } else {
             System.out.println(filter.filter(flights, time[0]));
         }
