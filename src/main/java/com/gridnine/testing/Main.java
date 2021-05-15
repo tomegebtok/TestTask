@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 public class Main {
     public static void main(String[] args) {
-        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        ExecutorService executorService = Executors.newFixedThreadPool(3);
 
         FilterHandler handler = new FilterHandler(FilterFactory.setFilter(Filter.DEPARTURE_BEFORE_ARRIVAL));
         executorService.execute(handler);
